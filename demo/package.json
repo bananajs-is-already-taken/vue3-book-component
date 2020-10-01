@@ -1,0 +1,13 @@
+{
+  "name": "demo-vue3",
+  "private": "true",
+  "version": "0.2.0",
+  "scripts": {
+    "serve": "vue-cli-service serve --target app ./main.ts"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0"
+  }
+}

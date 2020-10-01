@@ -1,0 +1,36 @@
+.scene {
+  position: relative;
+  display: flex;
+  &_card {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: transform;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    &.is__flipped {
+      transform: rotateY(-180deg);
+      transform-origin: top left;
+    }
+    &.right {
+      transform-origin: top left;
+      right: 0;
+    }
+    &.left {
+      left: 0;
+      transform-origin: top right;
+    }
+  }
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  &__front {
+    transform: rotateY(0deg);
+  }
+  &__back {
+    transform: rotateY(180deg);
+  }
+}

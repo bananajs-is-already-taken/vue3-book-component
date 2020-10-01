@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "importsNotUsedAsValues": "preserve",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["webpack-env", "jest", "node"],
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost", "es2019"],
+    "rootDir": ".",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}

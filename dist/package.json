@@ -1,0 +1,63 @@
+{
+  "name": "vue-book-components",
+  "private": "true",
+  "license": "LGPL-3.0-or-later",
+  "version": "0.1.4",
+  "repository": "git://github.com/bananajs-is-already-taken/vue-book-components.git",
+  "author": {
+    "email": "orest.pidfihurnyi@uzhnu.edu.ua",
+    "name": "Orest Pidfihirnyi",
+    "url": "https://github.com/Orest-2"
+  },
+  "contributors": [
+    {
+      "email": "andrii.shafar@uzhnu.edu.ua",
+      "name": "Andrii Shafar",
+      "url": "https://github.com/Reidond"
+    }
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve --target app demo/main.ts",
+    "build": "vue-cli-service build --target lib --name BananaVue3Book --dest dist --entry lib/index.ts && node scripts/copy-to-dist.js"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.14",
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/cli-shared-utils": "^4.5.6",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "concurrently": "^5.3.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "husky": "^4.2.5",
+    "jest": "26.4.2",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "pkg-dir": "^4.2.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "ts-jest": "26.4.0",
+    "ts-node": "~9.0.0",
+    "tslint": "~6.1.3",
+    "typescript": "~4.0.2",
+    "vue-eslint-parser": "^7.1.0",
+    "vue-jest": "^5.0.0-0"
+  }
+}
