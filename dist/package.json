@@ -1,9 +1,13 @@
 {
-  "name": "vue-book-components",
-  "private": "true",
+  "name": "@bananajs/vue3-book-component",
   "license": "LGPL-3.0-or-later",
-  "version": "0.1.4",
-  "repository": "git://github.com/bananajs-is-already-taken/vue-book-components.git",
+  "version": "0.2.3",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com",
+    "directory": "dist"
+  },
+  "repository": "git://github.com/bananajs-is-already-taken/vue3-book-component.git",
   "author": {
     "email": "orest.pidfihurnyi@uzhnu.edu.ua",
     "name": "Orest Pidfihirnyi",
