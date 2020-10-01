@@ -2,6 +2,7 @@
   "name": "@bananajs/vue3-book-component",
   "license": "LGPL-3.0-or-later",
   "version": "0.2.3",
+  "main": "BananaVue3Book.common.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.com",
