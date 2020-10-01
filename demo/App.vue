@@ -38,7 +38,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import { BananaVue3Book } from '../vue3-book-component/';
+import { BananaVue3Book } from '../lib/';
 
 export default defineComponent({
   components: {
